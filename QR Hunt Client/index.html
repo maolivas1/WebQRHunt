@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>QR</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="client.js"></script>
+<script src="qr.js"></script>
+</head>
+
+<body id="body">
+
+<div id="signin">
+<input type="text" id="nick" placeholder="Type a nickname here!">
+<br>
+<button type="button" onclick="signin()">Let Me Play!</button>
+</div>
+
+<div id="kick" class="hide">
+<h2 id="kicktext"></h2>
+<table>
+    <th><button class="yes" type="button" onclick="yes()">Yes</button></th>
+    <th><button class="no" type="button" onclick="no()">No</button></th>
+</table>
+</div>
+
+</body>
+</html>
