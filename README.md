@@ -13,3 +13,4 @@ Web based QR scavenger hunt
 * To reset a game or kick someone go to your webpage with the ?c tag `host` for example `http://markstuff.net/qr?c=host`
 * To check the score without scanning a code go to your webpage with no ?c tag for example `http://markstuff.net/qr`
 * The server only supports one active gave at a time
+* If your website has SSl you will need to modify the server to support it.
